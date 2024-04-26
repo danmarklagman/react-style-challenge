@@ -1,0 +1,82 @@
+/*
+---------------------------
+BASE (Tip: These should not need changing for the challenge)
+---------------------------
+*/
+@font-face {
+    font-family: eina;
+    src: url(./assets/fonts/Eina03-Regular.ttf);
+}
+
+@font-face {
+    font-family: eina;
+    src: url(./assets/fonts/Eina03-Light.ttf);
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: eina;
+    src: url(./assets/fonts/Eina03-Bold.ttf);
+    font-weight: bold;
+}
+
+body {
+  background: #f9f7ff;
+  color: #190a32;
+  font-family: eina, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #545454;
+}
+
+h1 {
+  color: #190a32;
+  font-weight: 600;
+  font-size: 52px;
+  text-align: center;
+}
+
+/*
+---------------------------
+COLOURS (Tip: Use these to get the right colours)
+---------------------------
+1 Purple (for heading)
+#7D4196
+
+2 Pink (for price)
+#ff3494
+
+3 Opaque pink (border)
+#e936947
+---------------------------
+*/
+
+/*
+---------------------------
+PINK/PURPLE GRADIENT
+Add the .gradient class to elements to apply gradient effect
+---------------------------
+*/
+.gradient {
+  color: #ffffff;
+  background: transparent linear-gradient(90deg, #7d4196 0%, #ff3494 100%) 0% 0%
+    no-repeat padding-box;
+}
+
+.pricing-button {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-transform: uppercase;
+    border: none;
+    border-radius: 16px;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 14px;
+    box-shadow: 0px 0px 10px 4px rgba(242, 193, 221, 0.6);
+    font-family: eina;
+    cursor: pointer;
+}
+
+.App {
+}
